@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ortus", "Ortus\Ortus.vcxproj", "{E6B82583-8A6C-492E-88BB-DC5C7EA9A3C4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ortus Test Project", "Ortus Test Project\Ortus Test Project.vcxproj", "{C6C552B0-CCFF-45BE-841C-83CE17CBE9AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E6B82583-8A6C-492E-88BB-DC5C7EA9A3C4} = {E6B82583-8A6C-492E-88BB-DC5C7EA9A3C4}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +26,14 @@ Global
 		{E6B82583-8A6C-492E-88BB-DC5C7EA9A3C4}.Release|x64.Build.0 = Release|x64
 		{E6B82583-8A6C-492E-88BB-DC5C7EA9A3C4}.Release|x86.ActiveCfg = Release|Win32
 		{E6B82583-8A6C-492E-88BB-DC5C7EA9A3C4}.Release|x86.Build.0 = Release|Win32
+		{C6C552B0-CCFF-45BE-841C-83CE17CBE9AE}.Debug|x64.ActiveCfg = Debug|x64
+		{C6C552B0-CCFF-45BE-841C-83CE17CBE9AE}.Debug|x64.Build.0 = Debug|x64
+		{C6C552B0-CCFF-45BE-841C-83CE17CBE9AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6C552B0-CCFF-45BE-841C-83CE17CBE9AE}.Debug|x86.Build.0 = Debug|Win32
+		{C6C552B0-CCFF-45BE-841C-83CE17CBE9AE}.Release|x64.ActiveCfg = Release|x64
+		{C6C552B0-CCFF-45BE-841C-83CE17CBE9AE}.Release|x64.Build.0 = Release|x64
+		{C6C552B0-CCFF-45BE-841C-83CE17CBE9AE}.Release|x86.ActiveCfg = Release|Win32
+		{C6C552B0-CCFF-45BE-841C-83CE17CBE9AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
