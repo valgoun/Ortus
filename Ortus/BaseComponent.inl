@@ -28,8 +28,8 @@ BaseComponent<T, W>::~BaseComponent()
 template<typename W>
 static size_t NextID() {
 	static size_t Id = 0;
-	return ID++;
+	return Id++;
 }
 
 template<typename T, typename W>
-BaseComponent<T, W>::ms_ID = NextID<W>();
+const size_t BaseComponent<T, W>::ms_ID = NextID<W>();
